@@ -57,7 +57,7 @@ public class AdditionQuizGlen {
 			System.exit(1);
 		}
 
-		else if (wrongAnswerCounter ==1) {
+		else if (wrongAnswerCounter == 1) {
 			System.out.println(yourName + ", you have answered " + wrongAnswerCounter 
 					 + " question incorrectly. "
 					 + "\nIt took " + testTime / 1000 + " seconds to complete the questions."
